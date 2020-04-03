@@ -10,7 +10,7 @@ def trim_file(file, directory):
 		os.remove(directory+'/'+file)
 
 
-trim_file('Chip_3D_3_Block_10_RandomData_Mar28_ReadRetry_SetFeature_0.txt','chip3')
+trim_file('Chip_3D_3_Block_223_RandomData_April_1_ReadRetry_SetFeature_0.txt','chip3')
 def trim_all_files():
 	for i in range(0,5):
 		directory = 'chip'+str(i)
